@@ -1,5 +1,5 @@
 'use client'
-import styles from './page.module.css'
+import styles from './style.module.css'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
