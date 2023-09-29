@@ -9,12 +9,40 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/core": "^7.23.0",
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@react-three/drei": "^9.85.2",
+    "@react-three/fiber": "^8.14.3",
+    "@react-three/postprocessing": "^2.15.1",
+    "@studio-freight/lenis": "^1.0.24",
+    "@types/three": "^0.156.0",
+    "babel-plugin-glsl": "^1.0.0",
+    "curtainsjs": "^8.1.5",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.6",
-    "gsap": "^3.12.1",
+    "framer-motion": "^6.5.1",
+    "glsl-noise": "^0.0.0",
+    "glslify": "^7.1.1",
+    "gsap": "file:gsap-bonus.tgz",
     "locomotive-scroll": "^5.0.0-beta.8",
     "next": "13.4.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-curtains": "^1.0.10",
+    "react-dom": "18.2.0",
+    "react-intersection-observer": "^9.5.2",
+    "react-modal": "^3.16.1",
+    "react-rnd": "^10.4.1",
+    "react-slick": "^0.29.0",
+    "sass": "^1.68.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.0.8",
+    "three": "^0.156.1",
+    "twin.macro": "^3.4.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
   }
 }
